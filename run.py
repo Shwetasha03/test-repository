@@ -1,4 +1,4 @@
-from app_bkup import app
+from app import app
 from db import import db
 
 db.init_app(app)
